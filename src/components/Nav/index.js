@@ -31,7 +31,7 @@ function Navigation(props) {
             
             {/* Category Listing */}
             {categories.map((category) => (
-                <Nav.item classname={`${currentCategory.name === category.name && 'navActive' } ` } key={category.name}>
+                <Nav.Item className={`${currentCategory.name === category.name && 'navActive' } ` } key={category.name}>
                     <Nav.Link onClick={() => {
                         setCurrentCategory(category)
 
@@ -56,7 +56,7 @@ function Navigation(props) {
                             setResumeSelected(false) 
                         }
                     }}>{category.name}</Nav.Link>
-                </Nav.item>
+                </Nav.Item>
             ))}
         </Nav>
     );

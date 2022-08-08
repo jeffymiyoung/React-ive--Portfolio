@@ -15,6 +15,13 @@ import Resume from './components/Resume';
 
 // App Function to display
 function App() {
+  // Declarations
+  const [currentCategory, setCurrentCategory] = useState(0);
+  const [projectSelected, setProjectSelected] = useState(false);
+  const [aboutSelected, setAboutSelected] = useState(false);
+  const [resumeSelected, setResumeSelected] = useState(false); 
+  
+  // JSX return
   return (
     <div>
       <main className="page">

@@ -5,7 +5,7 @@ import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import Modal from 'react-bootstrap/Modal';
 
-import { capitalizeFirstLetter, validateEmail } from '../../utils/helpers';
+import { capitalizeFirstLetter, validateEmail } from '../../util/helpers.js';
 
 // Contact Function
 function Contact() {
@@ -109,7 +109,7 @@ function Contact() {
                         <Alert key="warning" variant="warning">
                             {capitalizeFirstLetter(errorMessage)}
                         </Alert>
-                    )};
+                    )}
                 </Modal.Body>
                 {/* Footer to send/close */}
                 <Modal.Footer>
