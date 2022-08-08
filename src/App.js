@@ -9,7 +9,7 @@ import Footer from './components/Footer';
 import Header from './components/Header';
 import Home from './components/Home';
 import Project from './components/Project';
-import Resume from './componenets/Resume';
+import Resume from './components/Resume';
 // import Navigation from './componenets/Nav';
 // import Contact from './components/Contact';
 

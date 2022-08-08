@@ -31,7 +31,7 @@ function Resume() {
             <Row>
                 <Contact />
             </Row>
-            
+
             <Row>
                 <div>
                     <img src={resumePng} alt="Jeffrey Young's Current Resume" with="100%" className="boxShad topMar"/>

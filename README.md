@@ -38,6 +38,8 @@
 
 * [react v18.2.0]()
 
+* [react-bootstrap v2.5.0]()
+
 * [react-dom v18.2.0]()
 
 * [react-scripts v5.0.1]()
