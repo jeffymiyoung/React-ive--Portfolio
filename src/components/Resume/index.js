@@ -38,7 +38,7 @@ function Resume() {
                 </div>
             </Row>
         </Container>
-    )
+    );
 }   
 
 // Export for External

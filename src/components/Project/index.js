@@ -1,6 +1,6 @@
 // Imports
 
-// Header Function
+// Project Function
     // Declarations
 
     // JSX return

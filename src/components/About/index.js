@@ -68,7 +68,7 @@ function About() {
                 </Row>
             </Collapse>
         </Container>
-    )
+    );
 }
 
 // Export for External
