@@ -5,7 +5,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-import Nav from './components/Nav';
+import Navigation from './components/Nav';
 
 // Header Function
 function Header(props) {
@@ -48,7 +48,7 @@ function Header(props) {
                             </Col>
                         </Accordion.Header>
                         <Accordion.Body className="accordionBody">
-                            <Nav
+                            <Navigation
                                 categories={categories}
                                 setCurrentCategory={setCurrentCategory}
                                 currentCategory={currentCategory}

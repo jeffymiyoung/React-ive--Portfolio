@@ -10,7 +10,7 @@ import Header from './components/Header';
 import Home from './components/Home';
 import Project from './components/Project';
 import Resume from './componenets/Resume';
-// import Nav from './componenets/Nav';
+// import Navigation from './componenets/Nav';
 // import Contact from './components/Contact';
 
 // App Function to display
