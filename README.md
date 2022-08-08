@@ -2,6 +2,7 @@
 [![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 
 ## Description:
+* Here is a fresh take on my Portfolio utilizing React.js! Using React command `npx create-react-app` to jumpstart the React Application process. This Portfolio is personalized and updated to showcase my skillset. This repository/Portfolio will be updated periodically. Thank you for showing interest!
 
 ## Tables of Contents:
 * [Technologies](#technologies)
@@ -44,13 +45,15 @@
 * [web-vitals v2.1.4]()
 
 ## Screenshot:
+* [Deployed Application Link]()
 
+* Screenshots:
 
 ## Installation:
-
+* This is a deployed application! No installations necessary!
 
 ## Usage:
-
+* Visit the deployed application [here]()
 
 ## Author(s):
 * Jeffrey Young
