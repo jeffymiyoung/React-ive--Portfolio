@@ -1,70 +1,32 @@
 // Imports
-import React, { useState } from 'react';
-import Accordion from 'react-bootstrap/Accordion';
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+import React, { Component } from 'react';
+import { Route, HashRouter } from 'react-router-dom';
 
-import Navigation from '../Nav';
+// Import Page Components
+import About from '../About';
+import Contact from '../Contact';
+import Portfolio from '../Portfolio';
+import Resume from '../Resume';
+import Navigation from '../Navigation';
 
 // Header Function
-function Header(props) {
-    // Declarations
-    const {
-        projectSelected, setProjectSelected,
-        aboutSelected, setAboutSelected,
-        resumeSelected, setResumeSelected
-    } = props;
+class Header extends Component {
+    render () {
+        <HashRouter>
+            <div className="row Header" id="header">
+                <a href="/"><img src="../../assets/icons/icons8-home-button.png" alt="Jeffrey Young Home Page" class="icon" id="homeButton"/></a>
 
-    const categories = [
-        {
-            name: 'Home',
-            description: 'Home Page'
-        },
-        {
-            name: 'About Me',
-            description: 'Information about myself'
-        },
-        {
-            name: 'Projects',
-            descriptions: 'List of Projects that I have contributed to'
-        },
-        {
-            name: 'Resume',
-            description: 'Viewable / Downloadable version of my resume'
-        }
-    ];
+                <Navigation />
+            </div>
 
-    const [currentCategory, setCurrentCategory] = useState(0);
-    // JSX return
-    return (
-        <Container>
-            <Accordion defaultActiveKey="0">
-                <Accordion.Item eventKey="0">
-                    <Row className="justify-content-md-center">
-                        <Accordion.Header>
-                            <Col xs={8} md={8} lg={8}>
-                                <h1 className='hText'>Jeffrey Young</h1>
-                            </Col>
-                        </Accordion.Header>
-                        <Accordion.Body className="accordionBody">
-                            <Navigation
-                                categories={categories}
-                                setCurrentCategory={setCurrentCategory}
-                                currentCategory={currentCategory}
-                                projectSelected={projectSelected}
-                                setProjectSelected={setProjectSelected}
-                                aboutSelected={aboutSelected}
-                                setAboutSelected={setAboutSelected}
-                                resumeSelected={resumeSelected}
-                                setResumeSelected={setResumeSelected}
-                            />
-                        </Accordion.Body>
-                    </Row>
-                </Accordion.Item>
-            </Accordion>
-        </Container>
-    );
+            <div className="content">
+                <Route path="/about" component={About} />
+                <Route path="/portfolio" component={Portfolio} />
+                <Route path="/resume" component={Resume} />
+                <Route path="/contact" component={Contact} />
+            </div>
+        </HashRouter>
+    }
 };
 
 // Export for External

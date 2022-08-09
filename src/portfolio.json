@@ -1,0 +1,50 @@
+[
+    {
+    "id": 1,
+    "name": "Casty Weather Forecast App",
+    "image": "https://github.com/jeffymiyoung/React-ive--Portfolio/blob/main/src/assets/images/Casty%20Weather%20Forecast%20App/Casty%20Weather%20Forecast%20App-Screenshot.png",
+    "github": "https://github.com/jeffymiyoung/Casty-Weather-Forecast-App",
+    "deploy": "https://jeffymiyoung.github.io/Casty-Weather-Forecast-App/",
+    "description": "Daily and 5-day Forecast for the City of your choice!"
+    },
+    {
+    "id": 2,
+    "name": "Fridge 2 Food",
+    "image": "https://github.com/jeffymiyoung/React-ive--Portfolio/blob/main/src/assets/images/Fridge%202%20Food/Fridge%202%20Food-Screenshot.png",
+    "github": "https://github.com/Joshuajword/fridge2food",
+    "deploy": "https://joshuajword.github.io/fridge2food/",
+    "description": "Group Project Application, using the Spoonacular API to search for recipes based on an ingredient query."
+    },
+    {
+    "id": 3,
+    "name": "Notary Express",
+    "image": "https://github.com/jeffymiyoung/React-ive--Portfolio/blob/main/src/assets/images/Notary%20Express/Notary%20Express-Screenshot.png",
+    "github": "https://github.com/jeffymiyoung/Notary-Express",
+    "deploy": "https://murmuring-tor-25321.herokuapp.com/",
+    "description": "Node and Express Note taking application, which saves notes into localStorage."
+    },
+    {
+    "id": 4,
+    "name": "MVC Tech Journal",
+    "image": "https://github.com/jeffymiyoung/React-ive--Portfolio/blob/main/src/assets/images/MVC%20Tech%20Journal/MVC%20Tech%20Journal-Screenshot.png",
+    "github": "https://github.com/jeffymiyoung/MVC-Tech-Journal",
+    "deploy": "https://young-thicket-93120.herokuapp.com/",
+    "description": "Express and MySQL Application for posting Tech articles/opinions."
+    },
+    {
+    "id": 5,
+    "name": "Dog Meet Dog",
+    "image": "https://github.com/jeffymiyoung/React-ive--Portfolio/blob/main/src/assets/images/Dog%20Meet%20Dog/Dog%20Meet%20Dog-Screenshot.PNG",
+    "github": "https://github.com/AlexPap1/Dog-Meet-Dog",
+    "deploy": "https://dog-meet-dog-final.herokuapp.com/",
+    "description": "Group Project, utilizing handlebars, MySQL, and cloudinary - allows users to post pictures and captions about their dogs for other dog owners!"
+      },
+    {
+    "id": 6,
+    "name": "Poke App",
+    "image": "https://github.com/jeffymiyoung/React-ive--Portfolio/blob/main/src/assets/images/Poke%20App/Poke%20App-Screenshot.png",
+    "github": "https://github.com/mrsdno/poke-app",
+    "deploy": "",
+    "description": "MERN Application that allows users to create their own Pokemon Team from Gen 1 Pokemon!"
+    }
+]
