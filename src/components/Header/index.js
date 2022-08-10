@@ -12,8 +12,8 @@ class Header extends Component {
     render() {
         return (
             <div>
-                <div className="row pb-3 d-inline-flex" id="header">
-                    <div className="flex-row">
+                <div className="row pb-3 header" id="header">
+                    <div className="home mt-3">
                         <Link to="/">
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
@@ -30,7 +30,7 @@ class Header extends Component {
                         </Link>
                     </div>
 
-                    <div className="flex-row-reverse">
+                    <div className="nav">
                         <Navigation />
                     </div>
                 </div>

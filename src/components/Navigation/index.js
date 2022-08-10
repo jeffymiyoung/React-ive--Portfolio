@@ -5,10 +5,11 @@ import 'bootstrap/dist/css/bootstrap.css';
 
 // Navigation Function
 function Navigation(props) {
+
     // JSX return
     return (
-        <div className="row navigation" id="navigation">
-            <div className="justify-content-evenly">
+        <div className="row ms-auto justify-content-end" id="navigation">
+            <div>
                 <Link to="/about">About </Link>
                 <Link to="/portfolio">Portfolio </Link>
                 <Link to="/contact">Contact </Link>

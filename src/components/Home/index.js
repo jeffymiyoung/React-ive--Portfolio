@@ -12,13 +12,26 @@ function Home() {
 
             <div className="row justify-content-center">
                 <div className="col-10" id="home-section">
-                    <p>
-                        Welcome to my newly developed Portfolio! At the top of the page, there is a Navigation Bar, which can lead you to an About Me, Projects, and Resume pages.
-                    </p>
-                    <p>
+                    <h4>
+                        Welcome to my newly developed Portfolio! 
+                    </h4>
+
+                    <br></br>
+
+                    <h4>
+                        At the top of the page, there is a Navigation Bar, which can lead you to an About Me, Projects, Contact Form and Resume pages.
+                    </h4>
+
+                    <br></br>
+
+                    <h4>
                         Take a look around! If you'd like to check my socials, they are located at the bottom of the page. See you soon!
-                    </p>
+                    </h4>
                 </div>
+            </div>
+
+            <div>
+                <img src="../../assets/images/Young, Jeffrey Profile.jpg" />
             </div>
         </section>
     );

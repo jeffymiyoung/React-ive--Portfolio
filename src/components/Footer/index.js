@@ -8,7 +8,7 @@ import Row from 'react-bootstrap/Row';
 function Footer() {
     // Declaration
     const style = {
-        backgroundColor: "#DEE2FF",
+        background: 'linear-gradient(#FFFFFF, #CDB4DB)',
     };
     
     // JSX return

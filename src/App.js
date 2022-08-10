@@ -17,19 +17,20 @@ import Resume from './components/Resume';
 // App Function to display
 function App() {
   // Declaraction
-  const style = {
-    backgroundColor: "#FEEAFA",
-  };
-
   const overflow = {
     overflowX: 'hidden',
-  }
+  } 
+
+  const style = {
+    background: 'linear-gradient(#FFC8DD, #FFFFFF)',
+  };
 
   // JSX return
   return (
     <div style={overflow} className="App">
+
       <Router>
-        <header style={style} className="sticky-top">
+        <header style={style} className="sticky-top header">
           <Header />
         </header>
 
@@ -41,9 +42,10 @@ function App() {
           <Route path="/Resume" element={<Resume />} />
         </Routes>
 
-        <footer style={style}>
+        <footer>
           <Footer />
         </footer>
+
       </Router>
     </div>
   );
