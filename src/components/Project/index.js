@@ -16,7 +16,7 @@ function Project(props) {
             <div className="content">
                 <p className="project-title" id="card-title">{props.name}</p>
                 <p>
-                    <a href={props.github}>
+                    <a href={props.github} className="project-icon">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             width="44"
@@ -33,7 +33,7 @@ function Project(props) {
                         </svg>
                     </a>
 
-                    <a href={props.deploy}>
+                    <a href={props.deploy} className="project-icon">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             width="32"

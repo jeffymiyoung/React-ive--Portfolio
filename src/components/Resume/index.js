@@ -8,6 +8,12 @@ import resumePng from '../../assets/resume/2021-Sept-Resume.PNG';
 
 // Resume Function
 function Resume() {
+    // Declarations 
+    const style = {
+        background: '#A2D2FF',
+        color: '#000000',
+    }
+
     // JSX return
     return (
         <section className="mb-5">
@@ -15,14 +21,12 @@ function Resume() {
             <hr></hr>
             <div className="row justify-content-center" id="resume">
                 <div className="mt-5 pl-5 pr-5">
-                    <p>You may view my resume here! Or if you'd prefer, there is a download link provided.</p>
+                    <h5>You may view my resume down below! If you'd prefer, there is a download verion provided.</h5>
                 </div>
-
-                <br></br>
 
                 <div className="mt-5">
                     <a href={resumePdf} download>
-                        <Button className="flRight" variant="info">Download Resume</Button>
+                        <Button className="flRight" style={style}>Download Resume</Button>
                     </a>
                 </div>
             </div>

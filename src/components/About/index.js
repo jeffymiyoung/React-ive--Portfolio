@@ -11,21 +11,28 @@ function About() {
             <hr></hr>
 
             {/* Information */}
-            <div className="row justify-content-center">
+            <div className="row justify-content-center mb-3">
                 <div className="col-10" id="home-section">
-                    <p>
-                        Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler
-                    </p>
-                    <p>
-                        Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler
-                    </p>
+                    <h5>
+                        Hi! My name is Jeffrey Young. Currently residing in the good ole Garden State.
+                    </h5>
+                    <br></br>
+                    <h5>
+                        I have four wonderful dogs, who I think are all still puppies, and they definitely get spoiled quite well.                        
+                    </h5>
+                    <br></br>
+                    <h5>
+                        I've been passionate about Video Games, and computers for some time! I've recently started streaming during the pandemic, which brought me to taking the Rutgers Full Stack Bootcamp!
+                    </h5>
                 </div>
             </div>
 
+            <br></br>
+
             {/* Skills */}
-            <div className="row justify-content-center">
+            <div className="row justify-content-center mt-3">
                 <div id="skills-section">
-                    <div>
+                    <div className="mb-4">
                         <h6 className="hText">Front End</h6>
                         <span>
                             <object data="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"></object>
@@ -36,7 +43,7 @@ function About() {
                         </span>
                     </div>
                 
-                    <div>
+                    <div className="mb-4">
                         <h6 className="hText">Back End</h6>
                         <span>
                             <object data="https://img.shields.io/badge/Node.JS-%23323330.svg?style=for-the-badge&logo=nodedotjs&logoColor=brightgreen"></object>
@@ -45,7 +52,7 @@ function About() {
                         </span>
                     </div>
                 
-                    <div>
+                    <div className="mb-4">
                         <h6 className="hText">Databases</h6>
                         <span>
                             <object data="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white"></object>
