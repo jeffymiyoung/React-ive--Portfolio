@@ -1,6 +1,6 @@
 // Imports
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
 
@@ -29,7 +29,7 @@ function App() {
   return (
     <div style={overflow} className="App">
 
-      <Router>
+      <HashRouter>
         <header style={style} className="sticky-top header">
           <Header />
         </header>
@@ -46,7 +46,7 @@ function App() {
           <Footer />
         </footer>
 
-      </Router>
+      </HashRouter>
     </div>
   );
 }
