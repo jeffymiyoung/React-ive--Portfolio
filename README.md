@@ -49,15 +49,17 @@
 * devDependency: [gh-pages v4.0.0]()
 
 ## Screenshot:
-* [Deployed Application Link]()
+* [Deployed Application Link](https://jeffymiyoung.github.io/React-ive--Portfolio/)
 
 * Screenshots:
+
+![Homepage my React Portfolio!](./src/assets/images/React%20Portfolio%20Screenshot.PNG)
 
 ## Installation:
 * This is a deployed application! No installations necessary!
 
 ## Usage:
-* Visit the deployed application [here]()
+* Visit the deployed application [here](https://jeffymiyoung.github.io/React-ive--Portfolio/)
 
 ## Author(s):
 * Jeffrey Young
