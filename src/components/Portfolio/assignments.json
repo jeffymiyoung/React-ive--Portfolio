@@ -44,7 +44,7 @@
     "name": "Poke App",
     "image": "https://raw.githubusercontent.com/jeffymiyoung/React-ive--Portfolio/main/src/assets/images/Poke%20App-Screenshot.png",
     "github": "https://github.com/mrsdno/poke-app",
-    "deploy": "",
+    "deploy": "https://best-team-poke-app.herokuapp.com/",
     "description": "MERN Application that allows users to create their own Pokemon Team from Gen 1 Pokemon!"
     }
 ]
