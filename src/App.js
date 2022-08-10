@@ -29,7 +29,7 @@ function App() {
   return (
     <div style={overflow} className="App">
 
-      <Router>
+      <Router basename="/React-ive--Portfolio">
         <header style={style} className="sticky-top header">
           <Header />
         </header>
