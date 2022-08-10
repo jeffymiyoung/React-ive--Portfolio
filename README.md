@@ -28,25 +28,26 @@
 
 ## NPM Packages:
 
-* [@testing-library/jest-dom v5.16.5]()
+* [@testing-library/jest-dom v5.16.5](https://www.npmjs.com/package/@testing-library/jest-dom)
 
-* [@testing-library/react v13.3.0]()
+* [@testing-library/react v13.3.0](https://www.npmjs.com/package/@testing-library/react)
 
-* [@testing-library/user-event v13.5.0]()
+* [@testing-library/user-event v13.5.0](https://www.npmjs.com/package/@testing-library/user-event/v/13.5.0)
 
-* [bootstrap v5.2.0]()
+* [bootstrap v5.2.0](https://www.npmjs.com/package/bootstrap)
 
-* [react v18.2.0]()
+* [react v18.2.0](https://www.npmjs.com/package/react)
 
-* [react-bootstrap v2.5.0]()
+* [react-bootstrap v2.5.0](https://www.npmjs.com/package/react-bootstrap)
 
-* [react-dom v18.2.0]()
+* [react-dom v18.2.0](https://www.npmjs.com/package/react-dom)
 
-* [react-scripts v5.0.1]()
+* [react-scripts v5.0.1](https://www.npmjs.com/package/react-scripts)
 
-* [web-vitals v2.1.4]()
+* [web-vitals v2.1.4](https://www.npmjs.com/package/web-vitals)
 
-* devDependency: [gh-pages v4.0.0]()
+* devDependency: [gh-pages v4.0.0](https://www.npmjs.com/package/gh-pages)
+
 
 ## Screenshot:
 * [Deployed Application Link](https://jeffymiyoung.github.io/React-ive--Portfolio/)
