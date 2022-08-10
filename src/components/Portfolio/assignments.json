@@ -2,7 +2,7 @@
     {
     "id": 1,
     "name": "Casty Weather Forecast App",
-    "image": "https://github.com/jeffymiyoung/React-ive--Portfolio/blob/main/src/assets/images/Casty%20Weather%20Forecast%20App/Casty%20Weather%20Forecast%20App-Screenshot.png",
+    "image": "../../assets/images/Casty Weather Forecast App/Casty Weather Forecast App-Screenshot.png",
     "github": "https://github.com/jeffymiyoung/Casty-Weather-Forecast-App",
     "deploy": "https://jeffymiyoung.github.io/Casty-Weather-Forecast-App/",
     "description": "Daily and 5-day Forecast for the City of your choice!"

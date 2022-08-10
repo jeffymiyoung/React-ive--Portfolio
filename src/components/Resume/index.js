@@ -1,12 +1,8 @@
 // Imports
 import React from 'react';
 import Button from 'react-bootstrap/Button';
-import Container from 'react-bootstrap/Container';
-import Col from 'react-bootstrap/Col';
-import Row from 'react-bootstrap/Row';
 
-import Contact from '../Contact';
-
+// Import Resume Files
 import resumePdf from '../../assets/resume/2021-Sept-Resume.pdf';
 import resumePng from '../../assets/resume/2021-Sept-Resume.PNG';
 
@@ -14,32 +10,35 @@ import resumePng from '../../assets/resume/2021-Sept-Resume.PNG';
 function Resume() {
     // JSX return
     return (
-        <Container className="topMar">
-            <Row>
-                <Col>
-                    <h2>My Resume</h2>
+        <section className="mb-5">
+            <h1 className="resume">Resume</h1>
+            <hr></hr>
+            <div className="row justify-content-center" id="resume">
+                <div className="mt-5 pl-5 pr-5">
                     <p>You may view my resume here! Or if you'd prefer, there is a download link provided.</p>
-                </Col>
+                </div>
 
-                <Col>
+                <br></br>
+
+                <div className="mt-5">
                     <a href={resumePdf} download>
                         <Button className="flRight" variant="info">Download Resume</Button>
                     </a>
-                </Col>
-            </Row>
-
-            <Row>
-                <Contact />
-            </Row>
-
-            <Row>
-                <div>
-                    <img src={resumePng} alt="Jeffrey Young's Current Resume" with="100%" className="boxShad topMar"/>
                 </div>
-            </Row>
-        </Container>
+            </div>
+
+            <br></br>
+
+            <div>
+                <div className="justify-content-center mt-5">
+                    <div>
+                        <img src={resumePng} alt="Jeffrey Young's Current Resume" with="100%" className="boxShad topMar" />
+                    </div>
+                </div>
+            </div>
+        </section>
     );
-}   
+}
 
 // Export for External
 export default Resume;

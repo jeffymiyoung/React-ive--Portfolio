@@ -53,6 +53,11 @@ function Contact() {
     // JSX return
     return (    
         <>
+            <div>
+
+            </div> 
+            <br></br>
+            
             <Button variant="primary" onClick={handleOpen}>
                 Contact Me
             </Button>
