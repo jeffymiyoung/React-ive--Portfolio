@@ -46,6 +46,8 @@
 
 * [web-vitals v2.1.4]()
 
+* devDependency: [gh-pages v4.0.0]()
+
 ## Screenshot:
 * [Deployed Application Link]()
 
